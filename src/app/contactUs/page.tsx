@@ -88,7 +88,9 @@ function ContactUs ()  {
   return (
     <section className="bg-white py-12" id="contactUs">
       <div className="container mx-auto px-4">
-        <h2 className={styles.contactTitle}>Tired of Ordering the Wrong Part? We Can Help</h2>
+        <h2 className={`${styles.contactTitle} merriweather-bold`}>
+          Tired of Ordering the Wrong Part? We Can Help
+        </h2>
       
       
         {isSubmitted && (

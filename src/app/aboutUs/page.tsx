@@ -6,9 +6,9 @@ export default function AboutUs () {
     return (
         <section className={styles.aboutUs} id="aboutUs">
             <div className={styles.row}>
-                <h2 className={styles.aboutTitle}>About Us</h2>
+                <h2 className={`${styles.aboutTitle} merriweather-bold`}>About Us</h2>
                 
-                <p className={styles.aboutDescription}>
+                <p className={`${styles.aboutDescription} merriweather-light`}>
                     Welcome to our website! We are a team of passionate professionals dedicated to delivering exceptional service and innovative solutions. Our goal is to create value and impact through our expertise and commitment to excellence.
                     With years of experience in the industry, we strive to stay ahead of the curve, adopting the latest technologies and methodologies to deliver outstanding results for our clients.
                 </p>
