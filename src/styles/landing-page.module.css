@@ -1,0 +1,114 @@
+/* Default Styles for Mobile (Phone) */
+.landing-page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    z-index: 1;
+   
+    border-radius: 10px;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.75rem;
+    margin: 10px 0;
+}
+
+
+/* For tablets, phones, and small laptops (min-width: 481px to 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .overlay h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .overlay p {
+        font-size: 1.2rem; /* Adjust paragraph size */
+    }
+
+    .merriweather-bold {
+        font-size: 2.5rem;
+    }
+    
+    .merriweather-light {
+        font-size: 1.2rem;
+    }
+}
+
+/* For laptops and larger tablets (min-width: 1025px to 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .overlay h1 {
+        font-size: 2.5rem; /* Increase heading size */
+    }
+
+    .overlay p {
+        font-size: 1.5rem; /* Increase paragraph size */
+    }
+
+    .merriweather-bold {
+        font-size: 3rem;
+    }
+    
+    .merriweather-light {
+        font-size: 1.5rem;
+    }
+}
+
+/* For desktop screens (min-width: 1367px and above) */
+@media (min-width: 1367px) {
+    .overlay h1 {
+        font-size: 3rem; /* Larger heading for desktop */
+    }
+
+    .overlay p {
+        font-size: 1.75rem; /* Larger paragraph for desktop */
+    }
+
+    .merriweather-bold {
+        font-size: 3.5rem;
+    }
+    
+    .merriweather-light {
+        font-size: 1.75rem;
+    }
+}
+  

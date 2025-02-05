@@ -4,7 +4,7 @@ import styles from '@/styles/about-us.module.css';
 
 export default function AboutUs () {
     return (
-        <section className={`${styles.aboutUs} mt-[100px]`} id="aboutUs">
+        <section className={styles.aboutUs} id="aboutUs">
             <div className={styles.row}>
                 <h2 className={styles.aboutTitle}>About Us</h2>
                 
