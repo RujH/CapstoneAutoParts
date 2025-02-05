@@ -13,12 +13,12 @@ export default function Header() {
         <section>
             <header className={styles.header1}>
                 <div>
-                    <div className="flex flex-col sm:flex-row justify-between items-center w-full gap-3 flex-wrap">
-                        <div className="flex items-center shrink-0">
+                    <div className="flex flex-col sm:flex-row justify-between items-center w-full gap-3 sm:gap-6 flex-wrap">
+                        <div className="flex items-center shrink-0 sm:mr-2">
                             <PhoneIcon className="w-6 h-6 text-green-368 mr-2" />
                             <p className="text-sm sm:text-base text-gray-800">(619) 359-0333</p>
                         </div>
-                        <div className="flex items-center shrink-0">
+                        <div className="flex items-center shrink-0 sm:mr-2">
                             <EnvelopeIcon className="w-6 h-6 text-green-368 mr-2" />
                             <p className="text-sm sm:text-base text-gray-800">Sales@capstoneautoparts.com</p>
                         </div>
@@ -31,7 +31,7 @@ export default function Header() {
                             <MapPinIcon className="w-6 h-6 text-green-368 mr-2" />
                             <p className="text-sm sm:text-base text-gray-800">935 Bailey Ct, San Marcos, CA 92069</p>
                         </a>
-                        <div className="flex items-center shrink-0">
+                        <div className="flex items-center shrink-0 sm:ml-auto">
                             <p className="text-sm sm:text-base mr-2 whitespace-nowrap text-gray-800">Find Us On</p>
                             <a href="https://www.ebay.com/str/capstoneautoparts" target="_blank" rel="noopener noreferrer">
                                 <img src="/ebay.svg" alt="eBay" className="w-10 h-10" />

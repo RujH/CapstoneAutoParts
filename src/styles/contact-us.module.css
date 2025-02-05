@@ -1,0 +1,23 @@
+/* Contact Us Section Styling */
+
+.contactTitle {
+   
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Merriweather', serif;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 0 20px;
+    }
+}
